@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/stylereg.css">
-    <script src="javascript.js"></script>
-    <title>Document</title>
+    <title>Register</title>
+    <script src="/javascriptfiles/javascript2.js"></script>
 </head>
-<div class="background">
-
 <body>
-    <form action="#">
-        <h2>Register to become a member!</h2>
-        <label for="First name">First name</label>
+    <div class="background">
+    <header>
+        <br> <br> <br> <br> <br> <br><br>
+        <h2 class="card">Register to become a member</h2>
+    </header>
+    <div class="container">
+    <div class="main">
+        <label for="f_name">First Name</label>
+        <input type="f_name" name="f_name" id="f_name">
         <br>
-        <input type="Text" name="Text" id="Text">
+        <label for="l_name">Last Name</label>
+        <input type="l_name" name="l_name" id="l_name">
         <br>
-        <label for="Second name">Second name</label>
+        <label for="u_name">Username</label>
+        <input type="u_name" name="u_name" id="u_name">
         <br>
-        <input type="Text" name="Text" id="Text">
+        <label for="pswd">Password</label>
+        <input type="password" name="password" id="pswd">
         <br>
-        <label for="email">Email</label>
-         <br>
-         <input type="text" name="email" id="email">
-         <br>
-         <label for="pswd">Password</label>
-         <br>
-         <input type="password" name="pswd" id="pswd">
-         <br>
-         <label for="Birthdate">Birthdate</label>
-         <br>
-         <input type="Date" name="Date" id="Date">
-         <br>
-         <input type="submit" value="Submit">
-         <a class="active" href="mywebsite.html">Go back to login page</a>
-         </form>
-        </div>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <input type="button" value="Create my account" id="submit" onclick="Register()"/>
+        <br>
+        <a class="active" href="mywebsite.html">Have an account already? Log in here</a>
+</div>
+</div>
+   
+</div>
 </body>
 </html>

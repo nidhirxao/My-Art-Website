@@ -53,8 +53,6 @@ div.container{
   margin:55px auto;
   font-family:Arial, Helvetica, sans-serif;
   padding-left: 450px;
-
-  
   }
 
   div.main{
@@ -71,4 +69,10 @@ div.container{
   .artpage {
     padding-top: 100px;
     padding-bottom: 10x;
+  }
+
+  a{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:cornflowerblue;
   }
