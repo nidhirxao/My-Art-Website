@@ -1,0 +1,48 @@
+body {
+    font-size-18px;
+   font-family:'Courier New', Courier, monospace;
+ }
+ h2{
+   text-align: center;
+   font-weight: 300;
+ }
+ 
+ form {
+   box-shadow: 0 0 5px grey;
+   border: 2px solid black;
+   width: max-content;
+   padding: 20px;
+   margin: auto;
+   text-align: center;
+   border: 1px;
+   background-color:rgb(107, 176, 185);
+ }
+ 
+ input {
+   margin: 10px;
+   margin-left: 0;
+   padding :5px;
+ }
+ 
+ input[type="submit"] {
+   background-color: darkblue;
+   color: white;
+   width: 100%;
+   border-radius: 10px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   font-size: 18px;
+   border: none;
+   box-shadow: 0 0 5px grey;
+ }
+ 
+ .background {
+background-image: url("/images/Luca.jpeg");
+background-position: center;
+background-size:cover;
+height: 100vh;
+width:100vw;
+ }
+
+
+ 
