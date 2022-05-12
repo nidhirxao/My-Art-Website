@@ -1,0 +1,30 @@
+{
+  "name": "artwebsite",
+  "version": "1.0.0",
+  "description": "website of my artwork",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhirxao/My-Art-Website.git"
+  },
+  "keywords": [
+    "art",
+    "wesbite"
+  ],
+  "author": "Nidhi Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidhirxao/My-Art-Website/issues"
+  },
+  "homepage": "https://github.com/nidhirxao/My-Art-Website#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
