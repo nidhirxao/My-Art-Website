@@ -1,16 +1,15 @@
-const express = require('express');
-const app = express();
-const userRoutes = require("./server/routes/user");
-//CORS middleware
-app.use(function(req, res, next) {
- res.header("Access-Control-Allow-Origin", "*");
- res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, ContentType, Accept, Authorization");
- res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
- next();
-});
-app.use("/users", userRoutes);
-app.get('*', function (req, res) {
- res.sendFile(path.resolve(__dirname, 'public', 'bmi.html'));
-});
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, ( ) => console.log(`Server started on port ${PORT}!`));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { CartContextProvider } from "./components/context/context";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <CartContextProvider>
+   
+      <App />
+    
+    </CartContextProvider>
+  </React.StrictMode>
+);
