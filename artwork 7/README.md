@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+MY ART WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What is it?
+ 
+This project was made for the purpose of my Web and DB class but I will be using it as my official art website. It has been heavily inspired by one of my favorite artists- Pypah Santos’s website. 
 
-## Available Scripts
+In order to buy my artwork, the user will have to log in with their credentials. 
 
-In the project directory, you can run:
+If they do not already have an account, they will have to register by mentioning their name, email and password. Once registered, the user will be prompted to login into their account. 
 
-### `npm start`
+Once logged in :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The user’s name, a cart and a logout option will be displayed on the top right corner of the page . 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The user can now scroll through the page to have a look at my illustrations, the name of the illustrations and their respective prices. 
 
-### `npm test`
+Cart :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If they wish to purchase any of my art prints, they can add it to the cart after which the number of products they add to the cart will be displayed on the cart symbol. 
 
-### `npm run build`
+Once the user clicks on the cart, they will be directed to the checkout page. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Check out page :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here, there is an option to increase the quantity of each artwork. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The total price of the user’s purchase along with any discounts will be displayed on the right side of the page. 
 
-### `npm run eject`
+Below the total price is where the user can make their purchase after which a “purchase successful” page will be displayed. If the user wishes to continue shopping, they can choose that button which will take them back to the products page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Log out :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If the user wishes to log out at any time, they can click on the logout icon which will log them out of their account. 
