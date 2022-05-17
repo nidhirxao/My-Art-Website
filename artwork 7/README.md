@@ -26,7 +26,7 @@ Here, there is an option to increase the quantity of each artwork.
 
 The total price of the user’s purchase along with any discounts will be displayed on the right side of the page. 
 
-Below the total price is where the user can make their purchase after which a “purchase successful” page will be displayed. If the user wishes to continue shopping, they can choose that button which will take them back to the products page.
+Below, the total price is where the user can make their purchase after which a “purchase successful” page will be displayed. If the user wishes to continue shopping, they can choose that button which will take them back to the products page.
 
 Log out :
 
