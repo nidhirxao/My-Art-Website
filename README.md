@@ -57,17 +57,19 @@ The "continue shopping" button will take the user back to the shopping page wher
 
 ## Project built with :
 
-* HTML
-* JavaScript
-* Bootstrap
-* CSS
+### Front End:
 * ReactJS
-* MySQL
-* Express.js
-* Node.js
-* Axion 
+* Bootstrap
+* HTML
+* CSS
 
-## Revised ER Diagram :
+### Backend:
+* MySQL
+* ExpressJS
+* NodeJS
+* REST API
+
+## ER Diagram :
 
 ![ER Diagram ](https://user-images.githubusercontent.com/98702921/168946174-a34c60da-1f74-49f6-a2b5-1d79e61cb06e.jpeg)
 
