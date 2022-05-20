@@ -57,15 +57,17 @@ The "continue shopping" button will take the user back to the shopping page wher
 
 ## Project built with :
 
-* HTML
-* JavaScript
-* Bootstrap
-* CSS
+### Front End:
 * ReactJS
+* Bootstrap
+* HTML
+* CSS
+
+### Backend:
 * MySQL
-* Express.js
-* Node.js
-* Axion 
+* ExpressJS
+* NodeJS
+* REST API
 
 ## Revised ER Diagram :
 
@@ -87,4 +89,9 @@ I wish to add more entities in the future.
 ![mood2](https://user-images.githubusercontent.com/98702921/168949880-9d9df6b1-09ce-4244-a3e9-2a27db61f1dc.jpeg)
 ![mood3](https://user-images.githubusercontent.com/98702921/168949886-6ee808c4-9019-4a83-8e18-21f9ec2af61c.jpeg)
 
+## Commands:
+1. **Clone the repository into your local machine**
+2. **cd/artwork 7**
+3. **npm install**
+4. **npm start**
 
