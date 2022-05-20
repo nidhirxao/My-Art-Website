@@ -90,3 +90,8 @@ I wish to add more entities in the future.
 ![mood3](https://user-images.githubusercontent.com/98702921/168949886-6ee808c4-9019-4a83-8e18-21f9ec2af61c.jpeg)
 
 
+## Commands:
+1. **Clone the repository into your local machine**
+2. **cd/artwork 7**
+3. **npm install**
+4. **npm start**
